@@ -1,0 +1,15 @@
+/* Canvas Main Styling  */
+body{
+    display: grid;
+    justify-items: center;
+    height: 100%; 
+    width: 100%;
+
+}
+#myCanvas { 
+    height: 500px; 
+    width: auto;
+    background: #000;
+    border: solid #444 3px;
+}
+
