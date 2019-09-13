@@ -1,11 +1,14 @@
 /* Canvas Main Styling  */
+html{height: 100%; width: 100%;}
+
 body{
     display: grid;
     justify-items: center;
     height: 100%; 
     width: 100%;
-
+    overflow: hidden;
 }
+
 #myCanvas { 
     height: 500px; 
     width: auto;
