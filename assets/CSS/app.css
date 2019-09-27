@@ -7,13 +7,18 @@ body{
     height: 100%; 
     width: 100%;
     overflow: hidden;
-    background: #000;
+    color: white;
+    background-color: #000; 
+    transition: background-color 3.0s ease;
 }
 
 #myCanvas { 
     height: 500px; 
     width: auto;
-    background: #000;
     border: solid #444 3px;
 }
 
+#scoreKeeper{
+    font-size: 2rem; 
+    font-family: Arial, Helvetica, sans-serif;
+}
